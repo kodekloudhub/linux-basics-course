@@ -24,42 +24,53 @@ In this lecture we will explore two major SYSTEMD tools:
       ![Stop](../images/stop.PNG)
 
     - To restart a service use the restart command, for example to restart a docker service use **`systemctl restart  docker`** this will stop and start again.
+
       ![Restart](../images/restart.PNG)
 
     - To reload a service use the reload command, for example to reload a docker service use **`systemctl reload docker`**, this will reload all the configuration without interrupting the normal functionaltiy of the service
+      
       ![Reload](../images/reload.PNG)
 
     - To enable a service and make it persistent accross reboots use the enable command, for example to enable a docker service use **`systemctl enable docker`**
+      
       ![Enable](../images/enalbe.PNG)
 
     - To disable a service at boot use the disable command, for example to disable a docker service use **`systemctl disable docker`** command.
+      
       ![Disable](../images/disable.PNG)
 
     - To know the status of the service use **`systemctl status docker`** command. This command provided the state of the service. If running properly is should show **`active (running)`** state as shown in screenshot below.
+      
       ![Status](../images/status.PNG)
 
       - Besides **`active (running)`** state there are few other state that you should be aware off.
+        
         ![Other](../images/otherstate.PNG)
 
     - Running **`systemctl daemon reload`** command after making changes to service unit file reloads the system manager configuration and makes the systemd aware of the changes. 
 
     - To edit the service file use command **`systemctl edit project-mercury.service --full`** this will open a text editor, you can make the changes and re-write the settings as needed, making changing this way applied immediately without running the **`systemctl daemon reload`** command
+      
       ![Rewrite](../images/edit.PNG)
 
     - To see the current runlevel use **`systemctl get-default`**
+      
       ![Default](../images/default.PNG)
 
     - To change the runleve to a different target use  **`systemctl set-default multi-user.target`**
+      
       ![Runlevel](../images/runlevel.PNG)
 
     - To list all the units that systemd has loaded use **`systemctl list-units --all`**, this lists all the unit which are active, inactive or anyother state.
+      
       ![List](../images/list.PNG)
 
     - To list only active units use **`systemctl list-units`** command
+      
       ![Active](../images/active.PNG)
         
 
-## JOURNALCTL
+  ## JOURNALCTL
 
    - __Journalctl__ is a command for quering/viewing logs collected by systemd.
    - The systemd-journald service is responsible for systemd’s log collection, and it retrieves messages from the kernel    systemd services, and other sources.
@@ -75,4 +86,4 @@ In this lecture we will explore two major SYSTEMD tools:
 
 ## HANDS-ON LABS
 
-  - Now lets troubleshoot and help **`Bob`** [HelpBob](https://kodekloud.com/courses/the-linux-basics-course/lectures/17074647)
+  - Now lets troubleshoot and help **`Bob`** [Let's Help Bob](https://kodekloud.com/courses/the-linux-basics-course/lectures/17074647)
