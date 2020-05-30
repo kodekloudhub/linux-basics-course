@@ -4,7 +4,7 @@ In this lecture we will explore two major SYSTEMD tools:
 - SYSTEMCTL
 - JOURNALCTL
 
-## SYSTEMCTL
+  ## SYSTEMCTL
 
    - __Systemctl__ is the main command used to manage services on a **`SYSTEMD`** managed server.
    - It can be used to manage services such as **`START/STOP/RESTART/RELOAD`** as well as **`ENABLE/DISABLE`** services
@@ -23,7 +23,7 @@ In this lecture we will explore two major SYSTEMD tools:
     
       ![Stop](../images/stop.PNG)
 
-    - To restart a service use the restart command, for example to restart a docker service use **`systemctl restart docker`** this will stop and start again.
+    - To restart a service use the restart command, for example to restart a docker service use **`systemctl restart  docker`** this will stop and start again.
       ![Restart](../images/restart.PNG)
 
     - To reload a service use the reload command, for example to reload a docker service use **`systemctl reload docker`**, this will reload all the configuration without interrupting the normal functionaltiy of the service
