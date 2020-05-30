@@ -10,13 +10,13 @@ In this lecture we will explore two major SYSTEMD tools:
    - It can be used to manage services such as **`START/STOP/RESTART/RELOAD`** as well as **`ENABLE/DISABLE`** services
      during the system boot.
    - It is also used to **`LIST AND MANAGE UNITS`** and **`LIST AND UPDATE TARGETS`** 
-
-      ![Systemctl](../images/systemctl.PNG)
+   
+     ![Systemctl](../images/systemctl.PNG)
 
     ### Systemctl Commands 
 
     - To start a service use the start command, for example to start a docker service use **`systemctl start docker`**
-
+    
       ![Start](../images/start.PNG)
 
     - To stop a service use the stop command, for example to stop a docker service use **`systemctl stop docker`**
@@ -28,7 +28,7 @@ In this lecture we will explore two major SYSTEMD tools:
       ![Restart](../images/restart.PNG)
 
     - To reload a service use the reload command, for example to reload a docker service use **`systemctl reload docker`**, this will reload all the configuration without interrupting the normal functionaltiy of the service
-      
+    
       ![Reload](../images/reload.PNG)
 
     - To enable a service and make it persistent accross reboots use the enable command, for example to enable a docker service use **`systemctl enable docker`**
