@@ -9,8 +9,9 @@ In this lecture we will explore two major SYSTEMD tools:
    - __Systemctl__ is the main command used to manage services on a **`SYSTEMD`** managed server.
    - It can be used to manage services such as **`START/STOP/RESTART/RELOAD`** as well as **`ENABLE/DISABLE`** services
      during the system boot.
-   - It is also used to **`LIST AND MANAGE UNITS`** and **`LIST AND UPDATE TARGETS`** 
-     ![Systemctl](../images/systemctl.PNG)
+   - It is also used to **`LIST AND MANAGE UNITS`** and **`LIST AND UPDATE TARGETS`**
+   
+      ![Systemctl](../images/systemctl.PNG)
 
     ### Systemctl Commands 
 
@@ -75,7 +76,7 @@ In this lecture we will explore two major SYSTEMD tools:
    - The systemd-journald service is responsible for systemd’s log collection, and it retrieves messages from the kernel    systemd services, and other sources.
    - Very useful when you are troubleshooting issues with systemd services.
      
-     ![Journalctl](../images/journalctl.PNG)
+      ![Journalctl](../images/journalctl.PNG)
 
    - Using **`journalctl`** commands print all the log entries from oldest to the newest.
    - Using **`journalctl -b`** command print all the logs from the current boot.
