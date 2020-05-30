@@ -22,7 +22,7 @@ In this lecture we will learn how to create a SYSTEMD Service.
   #### 2.Service
 
   ![Service](../images/Service.PNG) 
-  - In the **`Service`** section of a service unit, we can specify things as the command to be executed when the service is started, or the type of the service itself. Let's take a look at some of them.
+  - In the **`Service`** section of a service unit, we can specify things as the command to be executed when the service is started, or the type of the service itself.
 
   #### 3.Install
 
