@@ -11,7 +11,7 @@ In this lecture we will explore two major SYSTEMD tools:
      during the system boot.
    - It is also used to **`LIST AND MANAGE UNITS`** and **`LIST AND UPDATE TARGETS`** 
 
-   ![Systemcl](../images/systemctl.PNG)
+     ![Systemctl](../images/systemctl.PNG)
 
     ### Systemctl Commands 
 
@@ -33,7 +33,7 @@ In this lecture we will explore two major SYSTEMD tools:
 
     - To enable a service and make it persistent accross reboots use the enable command, for example to enable a docker service use **`systemctl enable docker`**
       
-      ![Enable](../images/enalbe.PNG)
+      ![Enable](../images/enable.PNG)
 
     - To disable a service at boot use the disable command, for example to disable a docker service use **`systemctl disable docker`** command.
       
@@ -43,9 +43,9 @@ In this lecture we will explore two major SYSTEMD tools:
       
       ![Status](../images/status.PNG)
 
-      - Besides **`active (running)`** state there are few other state that you should be aware off.
+    - Besides **`active (running)`** state there are few other state that you should be aware off.
         
-        ![Other](../images/otherstate.PNG)
+      ![Other](../images/otherstate.PNG)
 
     - Running **`systemctl daemon reload`** command after making changes to service unit file reloads the system manager configuration and makes the systemd aware of the changes. 
 
@@ -82,7 +82,7 @@ In this lecture we will explore two major SYSTEMD tools:
    - Using **`journalctl -b`** command print all the logs from the current boot.
    - Using **`journalctl -u docker.service`**command print all the logs specific to the unit specified, for example docker in this case.
 
-   ![Logs](../images/jlog.PNG)
+     ![Logs](../images/jlog.PNG)
 
 ## HANDS-ON LABS
 
