@@ -80,7 +80,7 @@ In this lecture we will explore two major SYSTEMD tools:
 
    - Using **`journalctl`** commands print all the log entries from oldest to the newest.
    - Using **`journalctl -b`** command print all the logs from the current boot.
-   - Using **`journalctl -u docker.service`**command print all the logs specific to the unit specified, for example docker in this case.
+   - Using **`journalctl -u docker.service`** command print all the logs specific to the unit specified, for example docker in this case.
 
      ![Logs](../images/jlog.PNG)
 
