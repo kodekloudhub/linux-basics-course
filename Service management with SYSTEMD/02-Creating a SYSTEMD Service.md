@@ -11,28 +11,27 @@ In this lecture we will learn how to create a SYSTEMD Service.
 
   #### 1.Unit
 
-![Unit](../images/unit.PNG)
+  ![Unit](../images/unit.PNG)
 
-- The **`Unit`** section of a .service file contains the description of the unit itself, and information about its behavior and its dependencies: (to work correctly a service can depend on another one). Here we discuss some of the most relevant options which can be used in this section
-- First of all we have the **`Description`** option. By using this option we can provide a description of the unit. The description will then appear, for example, when calling the systemctl command, which returns an overview of the status of systemd.
-- Secondly, we have **`Documentation`** option. By using this option we can get the details of the service and documentation related to it.
-- By using the **`After`** option, we can state that our unit should be started after the units we provide in the form of a space-separated list.
+  - The **`Unit`** section of a .service file contains the description of the unit itself, and information about its behavior and its dependencies: (to work correctly a service can depend on another one). Here we discuss some of the most relevant options which can be used in this section
+  - First of all we have the **`Description`** option. By using this option we can provide a description of the unit. The description will then appear, for example, when calling the systemctl command, which returns an overview of the status of systemd.
+  - Secondly, we have **`Documentation`** option. By using this option we can get the details of the service and documentation related to it.
+  - By using the **`After`** option, we can state that our unit should be started after the units we provide in the form of a space-separated list.
 
 
   #### 2.Service
 
-![Service](../images/unit.PNG) 
-- In the [Service] section of a service unit, we can specify things as the command to be executed when the service is started, or the type of the service itself. Let's take a look at some of them.
+  ![Service](../images/unit.PNG) 
+  - In the **`Service`** section of a service unit, we can specify things as the command to be executed when the service is started, or the type of the service itself. Let's take a look at some of them.
 
   #### 3.Install
 
-[Install]: This section contains information about the installation of the unit
+  - This **`Install`** section contains information about the installation of the unit
 
-![Install](../images/unit.PNG)
+  ![Install](../images/unit.PNG)
 
 #### How to Start the Service now ?
 
 - The system to detect the changes you have done in the file, we need to reload the daemon and start the service.
 
 ![Reload](../images/reloadsvc.PNG)
-
