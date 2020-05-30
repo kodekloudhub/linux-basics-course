@@ -6,54 +6,56 @@ In this lecture we will explore two major SYSTEMD tools:
 
 ## SYSTEMCTL
 
-   - __Systemctl__ is the main command used to manage services on a `**SYSTEMD**` managed server.
-   - It can be used to manage services such as `**START/STOP/RESTART/RELOAD**` as well as `**ENABLE/DISABLE**` services
+   - __Systemctl__ is the main command used to manage services on a **`SYSTEMD`** managed server.
+   - It can be used to manage services such as **`START/STOP/RESTART/RELOAD`** as well as **`ENABLE/DISABLE`** services
      during the system boot.
-   - It is also used to `**LIST AND MANAGE UNITS**` and `**LIST AND UPDATE TARGETS**` 
+   - It is also used to **`LIST AND MANAGE UNITS`** and **`LIST AND UPDATE TARGETS`** 
 
    ![Systemcl](../images/systemctl.PNG)
 
     ### Systemctl Commands 
 
-    - To start a service use the start command, for example to start a docker service use `**systemctl start docker**`
+    - To start a service use the start command, for example to start a docker service use **`systemctl start docker`**
+
       ![Start](../images/start.PNG)
 
-    - To stop a service use the stop command, for example to stop a docker service use `**systemctl stop docker**`
+    - To stop a service use the stop command, for example to stop a docker service use **`systemctl stop docker`**
+    
       ![Stop](../images/stop.PNG)
 
-    - To restart a service use the restart command, for example to restart a docker service use `**systemctl restart docker**` this will stop and start again.
+    - To restart a service use the restart command, for example to restart a docker service use **`systemctl restart docker`** this will stop and start again.
       ![Restart](../images/restart.PNG)
 
-    - To reload a service use the reload command, for example to reload a docker service use `**systemctl reload docker**`, this will reload all the configuration without interrupting the normal functionaltiy of the service
+    - To reload a service use the reload command, for example to reload a docker service use **`systemctl reload docker`**, this will reload all the configuration without interrupting the normal functionaltiy of the service
       ![Reload](../images/reload.PNG)
 
-    - To enable a service and make it persistent accross reboots use the enable command, for example to enable a docker service use `**systemctl enable docker**`
+    - To enable a service and make it persistent accross reboots use the enable command, for example to enable a docker service use **`systemctl enable docker`**
       ![Enable](../images/enalbe.PNG)
 
-    - To disable a service at boot use the disable command, for example to disable a docker service use `**systemctl disable docker**` command.
+    - To disable a service at boot use the disable command, for example to disable a docker service use **`systemctl disable docker`** command.
       ![Disable](../images/disable.PNG)
 
-    - To know the status of the service use `**systemctl status docker**` command. This command provided the state of the service. If running properly is should show `**active (running)**` state as shown in screenshot below.
+    - To know the status of the service use **`systemctl status docker`** command. This command provided the state of the service. If running properly is should show **`active (running)`** state as shown in screenshot below.
       ![Status](../images/status.PNG)
 
-      - Besides `**active (running)**` state there are few other state that you should be aware off.
+      - Besides **`active (running)`** state there are few other state that you should be aware off.
         ![Other](../images/otherstate.PNG)
 
-    - Running `**systemctl daemon reload**` command after making changes to service unit file reloads the system manager configuration and makes the systemd aware of the changes. 
+    - Running **`systemctl daemon reload`** command after making changes to service unit file reloads the system manager configuration and makes the systemd aware of the changes. 
 
-    - To edit the service file use command `**systemctl edit project-mercury.service --full**` this will open a text editor, you can make the changes and re-write the settings as needed, making changing this way applied immediately without running the `**systemctl daemon reload**` command
+    - To edit the service file use command **`systemctl edit project-mercury.service --full`** this will open a text editor, you can make the changes and re-write the settings as needed, making changing this way applied immediately without running the **`systemctl daemon reload`** command
       ![Rewrite](../images/edit.PNG)
 
-    - To see the current runlevel use `**systemctl get-default**`
+    - To see the current runlevel use **`systemctl get-default`**
       ![Default](../images/default.PNG)
 
-    - To change the runleve to a different target use  `**systemctl set-default multi-user.target**`
+    - To change the runleve to a different target use  **`systemctl set-default multi-user.target`**
       ![Runlevel](../images/runlevel.PNG)
 
-    - To list all the units that systemd has loaded use `**systemctl list-units --all**`, this lists all the unit which are active, inactive or anyother state.
+    - To list all the units that systemd has loaded use **`systemctl list-units --all`**, this lists all the unit which are active, inactive or anyother state.
       ![List](../images/list.PNG)
 
-    - To list only active units use `**systemctl list-units**` command
+    - To list only active units use **`systemctl list-units`** command
       ![Active](../images/active.PNG)
         
 
@@ -65,12 +67,12 @@ In this lecture we will explore two major SYSTEMD tools:
 
    ![Journalctl](../images/journalctl.PNG)
 
-   - Using `**journalctl**` commands print all the log entries from oldest to the newest.
-   - Using `**journalctl -b**` command print all the logs from the current boot.
-   - Using `**journalctl -u docker.service**`command print all the logs specific to the unit specified, for example docker in this case.
+   - Using **`journalctl`** commands print all the log entries from oldest to the newest.
+   - Using **`journalctl -b`** command print all the logs from the current boot.
+   - Using **`journalctl -u docker.service`**command print all the logs specific to the unit specified, for example docker in this case.
 
    ![Logs](../images/jlog.PNG)
 
 ## HANDS-ON LABS
 
-  - Now lets troubleshoot and help `**Bob**` [HelpBob](https://kodekloud.com/courses/the-linux-basics-course/lectures/17074647)
+  - Now lets troubleshoot and help **`Bob`** [HelpBob](https://kodekloud.com/courses/the-linux-basics-course/lectures/17074647)
