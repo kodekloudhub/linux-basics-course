@@ -11,7 +11,7 @@ In this lecture we will explore two major SYSTEMD tools:
      during the system boot.
    - It is also used to **`LIST AND MANAGE UNITS`** and **`LIST AND UPDATE TARGETS`** 
 
-     ![Systemctl](../images/systemctl.PNG)
+      ![Systemctl](../images/systemctl.PNG)
 
     ### Systemctl Commands 
 
@@ -40,7 +40,7 @@ In this lecture we will explore two major SYSTEMD tools:
       ![Disable](../images/disable.PNG)
 
     - To know the status of the service use **`systemctl status docker`** command. This command provided the state of the service. If running properly is should show **`active (running)`** state as shown in screenshot below.
-      
+    
       ![Status](../images/status.PNG)
 
     - Besides **`active (running)`** state there are few other state that you should be aware off.
@@ -76,7 +76,7 @@ In this lecture we will explore two major SYSTEMD tools:
    - The systemd-journald service is responsible for systemd’s log collection, and it retrieves messages from the kernel    systemd services, and other sources.
    - Very useful when you are troubleshooting issues with systemd services.
 
-   ![Journalctl](../images/journalctl.PNG)
+     ![Journalctl](../images/journalctl.PNG)
 
    - Using **`journalctl`** commands print all the log entries from oldest to the newest.
    - Using **`journalctl -b`** command print all the logs from the current boot.
