@@ -1,14 +1,38 @@
 # Creating your own SYSTEMD Service
 
 In this lecture we will learn how to create a SYSTEMD Service.
-- 
+- All the major distributions, such as Rhel, CentOS, Fedora, Ubuntu, Debian and Archlinux, adopted systemd as their init system.
+- Systemd is a Linux initialization system and service manager that includes features like on-demand starting of daemons, mount and automount point maintenance etc.
+- Systemd also provides a logging daemon and other tools and utilities to help with common system administration tasks.
 
-
-### What is a service unit? 
+#### What is a service unit? 
 
 - A file with the .service suffix contains information about a process which is managed by systemd. It is composed by three main sections:
 
-[Unit]: This section contains information not specifically related to the type of the unit, such as the service description
-[Service]: Contains information about the specific type of the unit, a service in this case
+  #### 1.Unit
+
+![Unit](../images/unit.PNG)
+
+- The **`Unit`** section of a .service file contains the description of the unit itself, and information about its behavior and its dependencies: (to work correctly a service can depend on another one). Here we discuss some of the most relevant options which can be used in this section
+- First of all we have the **`Description`** option. By using this option we can provide a description of the unit. The description will then appear, for example, when calling the systemctl command, which returns an overview of the status of systemd.
+- Secondly, we have **`Documentation`** option. By using this option we can get the details of the service and documentation related to it.
+- By using the **`After`** option, we can state that our unit should be started after the units we provide in the form of a space-separated list.
+
+
+  #### 2.Service
+
+![Service](../images/unit.PNG) 
+- In the [Service] section of a service unit, we can specify things as the command to be executed when the service is started, or the type of the service itself. Let's take a look at some of them.
+
+  #### 3.Install
+
 [Install]: This section contains information about the installation of the unit
-Let's analyze each of them in detail.
+
+![Install](../images/unit.PNG)
+
+#### How to Start the Service now ?
+
+- The system to detect the changes you have done in the file, we need to reload the daemon and start the service.
+
+![Reload](../images/reloadsvc.PNG)
+
