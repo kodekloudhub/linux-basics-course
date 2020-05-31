@@ -121,7 +121,7 @@ $ PS1="ubuntu-server"
 $ echo $PS1
 ```
 
-To customize further, have a look at the below special character.
+#### To customize further, have a look at the below special character.
 
 ![bash-prompt3](../../images/bash-prompt3.PNG)
 
