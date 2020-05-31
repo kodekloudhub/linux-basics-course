@@ -6,7 +6,7 @@
 
   #### Working with Ext4 
 
-  - To create a file system we will make use of `**/dev/sdb**` disk, run below command 
+  - To create a file system we will make use of **`/dev/sdb`** disk, run below command 
 
     ```
     [~]$ mkfs.ext4 /dev/sdb1
@@ -26,7 +26,7 @@
 
     [~]$ df -hP | grep /dev/sdb1
     ```
-  - Add an entry into `**/etc/fstab**` to be available after reboot.
+  - Add an entry into **`/etc/fstab`** to be available after reboot.
 
     ```
     # /etc/fstab: static file system information.
@@ -42,6 +42,10 @@
     ```
     echo "/dev/sdb1 /mnt/ext4 ext4 rw 0 0" >> /etc/fstab
     ```
-  - `**fstab**` file attributes
+  - **`fstab`** file attributes
 
     ![fstab](../images/fstab.PNG)
+
+# HANDS-ON LABS
+
+  - Lets Play around with [FileSystems](https://kodekloud.com/courses/873064/lectures/17074604)
