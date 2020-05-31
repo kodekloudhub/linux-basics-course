@@ -15,41 +15,43 @@ In this lecture we will learn how to create a SYSTEMD Service.
   - First of all we have the **`Description`** option. By using this option we can provide a description of the unit. The description will then appear, for example, when calling the systemctl command, which returns an overview of the status of systemd.
   - Secondly, we have **`Documentation`** option. By using this option we can get the details of the service and documentation related to it.
   - By using the **`After`** option, we can state that our unit should be started after the units we provide in the form of a space-separated list.
-  ...
-  [~]$ cat /etc/systemd/system/project-mercury.service
 
+  ```
+  [~]$ cat /etc/systemd/system/project-mercury.service
   [Unit]
   Description=Python Django for Project Mercury
   Documentation=http://wiki.caleston-dev.ca/mercury
   After=postgresql.service
-  ...
+  ```
 
 
   #### 2.Service
 
   - In the **`Service`** section of a service unit, we can specify things as the command to be executed when the service is started, or the type of the service itself.
 
-  ...
+  ```
   [Service]
   ExecStart=/usr/bin/project-mercury.sh
   User=project_mercury
   Restart=on-failure
   RestartSec=10
-  ...
+  ```
 
   #### 3.Install
 
   - This **`Install`** section contains information about the installation of the unit
 
-  ...
+  ```
   [Install]
   WantedBy=graphical.target
-  ...
+  ```
+
 #### How to Start the Service now ?
 
 - The system to detect the changes you have done in the file, we need to reload the daemon and start the service.
-...
+
+```
 [~]$ systemctl daemon-reload
 
 [~]$ systemctl start project-mercury.service
-...
+```
