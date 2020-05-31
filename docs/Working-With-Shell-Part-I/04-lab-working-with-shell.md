@@ -11,8 +11,9 @@
 1. In the command echo Welcome, what does the word Welcome represent with respect to the command?
    ```
    $ echo Welcome
-   Where Welcome is an **`argument`**
    ```  
+   - Where Welcome is an **`argument`**
+   
 1. To check **`git`** command type
    ```
    $ type git
