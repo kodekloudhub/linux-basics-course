@@ -106,6 +106,31 @@ It can be customized to see the **`username`** and the **`hostname`**
 
 ![bash-prompt1](../../images/bash-prompt1.PNG)
 
+#### The bash prompt is set in control by a set of special shell environment variables. The most common of these and the one we will focus on is **`PS1`** variable.
+
+![bash-prompt2](../../images/bash-prompt2.PNG)
+
+To see the value assign to PS1, type **`echo $PS1`**
+```
+$ echo $PS1
+```
+
+To change the PS1 to only display the word **`ubuntu-server`**.
+```
+$ PS1="ubuntu-server"
+$ echo $PS1
+```
+
+To customized further, have a look at the below.
+
+![bash-prompt2](../../images/bash-prompt2.PNG)
+
+To change the bash prompt to display **`date`**, **`time`**, **`username of the current user`**, the **`hostname`** and the **`current working directory`**
+```
+$ PS1="[\d \t \u@\h:\w ] $ "
+```
+
+
 
 
 
