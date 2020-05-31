@@ -8,11 +8,11 @@
    ```
    $ echo $HOME
    ```
-1. In the command echo Welcome, what does the word Welcome represent with respect to the command?
+1. In the command **`echo Welcome`**, what does the word Welcome represent with respect to the command?
    ```
-   $ echo Welcome
-   ```  
-   - Where Welcome is an **`argument`**
+   $ echo Welcome 
+     - Where Welcome is an argument
+   ```
    
 1. To check **`git`** command type
    ```
