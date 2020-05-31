@@ -1,4 +1,6 @@
-# Different types of Shells
+# Bash Shell
+
+## Different types of Shells
 
 In this section, we will take a look at different types of shells.
 - There are different types of shells in linux, some of the popular ones are below
@@ -71,6 +73,8 @@ $ chsh
  $ echo $LOGNAME
  ```
  
+## Path Variable
+
 #### Speaking about the environment variables, when a user issues an external command into the shell, the shell uses path variable to search for these external commands
  
 To see the directories defined in path variable. Use the command **`echo $PATH`**.
