@@ -17,31 +17,42 @@ In this lecture we will explore two major SYSTEMD tools:
 
     - To start a service use the start command, for example to start a docker service use **`systemctl start docker`**
     
-      ![Start](../images/start.PNG)
+      ```
+      [~]$ systemctl start docker
+      ```
 
     - To stop a service use the stop command, for example to stop a docker service use **`systemctl stop docker`**
     
-      ![Stop](../images/stop.PNG)
-
+      ```
+      [~]$ systemctl stop docker
+      ```
     - To restart a service use the restart command, for example to restart a docker service use **`systemctl restart  docker`** this will stop and start again.
 
-      ![Restart](../images/restart.PNG)
-
+      ```
+      [~]$ systemctl restart docker
+      ```
     - To reload a service use the reload command, for example to reload a docker service use **`systemctl reload docker`**, this will reload all the configuration without interrupting the normal functionaltiy of the service
     
-      ![Reload](../images/reload.PNG)
-
+      ```
+      [~]$ systemctl reload docker
+      ```
     - To enable a service and make it persistent accross reboots use the enable command, for example to enable a docker service use **`systemctl enable docker`**
       
-      ![Enable](../images/enable.PNG)
+      ```
+      [~]$ systemctl enable docker
+      ```
 
     - To disable a service at boot use the disable command, for example to disable a docker service use **`systemctl disable docker`** command.
       
-      ![Disable](../images/disable.PNG)
+      ```
+      [~]$ systemctl disable docker
+      ```
 
     - To know the status of the service use **`systemctl status docker`** command. This command provided the state of the service. If running properly is should show **`active (running)`** state as shown in screenshot below.
     
-      ![Status](../images/status.png)
+      ```
+      [~]$ systemctl status docker
+      ```
 
     - Besides **`active (running)`** state there are few other state that you should be aware off.
         
@@ -51,23 +62,35 @@ In this lecture we will explore two major SYSTEMD tools:
 
     - To edit the service file use command **`systemctl edit project-mercury.service --full`** this will open a text editor, you can make the changes and re-write the settings as needed, making changing this way applied immediately without running the **`systemctl daemon reload`** command
       
-      ![Rewrite](../images/edit.PNG)
-
+      ```
+      [~]$ systemctl daemon-reload
+      ```
+      ```
+      [~]$ systemctl edit project-mercury.service --full
+      ```
     - To see the current runlevel use **`systemctl get-default`**
       
-      ![Default](../images/default.PNG)
+      ```
+      [~]$ systemctl get default
+      ```
 
     - To change the runleve to a different target use  **`systemctl set-default multi-user.target`**
       
-      ![Runlevel](../images/runlevel.PNG)
+      ```
+      [~]$ systemctl set-default multi-user.target
+      ```
 
     - To list all the units that systemd has loaded use **`systemctl list-units --all`**, this lists all the unit which are active, inactive or anyother state.
       
-      ![List](../images/list.PNG)
+      ```
+      [~]$ systemctl list-units --all
+      ```
 
     - To list only active units use **`systemctl list-units`** command
       
-      ![Active](../images/active.PNG)
+      ```
+      [~]$ systemctl list-units
+      ```
         
 
   ## JOURNALCTL
@@ -82,8 +105,17 @@ In this lecture we will explore two major SYSTEMD tools:
    - Using **`journalctl -b`** command print all the logs from the current boot.
    - Using **`journalctl -u docker.service`** command print all the logs specific to the unit specified, for example docker in this case.
 
-     ![Logs](../images/jlog.PNG)
+      ```
+      [~]$ journalctl
+      ```
 
+      ```
+      [~]$ journalctl -b
+      ```      
+
+      ```
+      [~]$ journalctl -u docker.service 
+      ```
 ## HANDS-ON LABS
 
   - Now lets troubleshoot and help **`Bob`** [Let's Help Bob](https://kodekloud.com/courses/the-linux-basics-course/lectures/17074647)
