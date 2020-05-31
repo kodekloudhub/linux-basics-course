@@ -19,14 +19,14 @@
 
     [~]$ mount /dev/sdb1 /mnt/ext4
     ```    
-  - To verify if the filesystem is mountes use 
+  - To verify if the filesystem is mounted use 
 
     ```
     [~]$ mount | grep /dev/sdb1
 
     [~]$ df -hP | grep /dev/sdb1
     ```
-  - Add an entry into **`/etc/fstab`** to be available after reboot.
+  - Add an entry into **`/etc/fstab`** for the filesystem to be available after reboot.
 
     ```
     # /etc/fstab: static file system information.
