@@ -32,14 +32,14 @@ To list all PCI (Peripheral Component Interconnect) devices that are configured 
 ```
 $ lspci
 ```
-        ![pci](../../images/pci.PNG)
+   ![pci](../../images/pci.PNG)
    
 
 To list information about **`Block Devices`**
 ```
 $ lsblk
 ```
-        ![block-device](../../images/block-device.PNG)
+   ![block-device](../../images/block-device.PNG)
    
 
 To display detail information about the **`CPU`** such as CPU architecture, cpu op-modes (32 bit, 64 bit) etc.
