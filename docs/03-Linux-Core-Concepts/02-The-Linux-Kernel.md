@@ -11,8 +11,7 @@ In this section, we will take a look at the core concepts of a linux operating s
 - The Linux kernel is monolithic, this means that the kernel carrries out CPU scheduling, memory management and several operations by itselfs. 
 - The Linux Kernel is also modular, which means it can extends its capabilities through the use of dynamically loaded kernel modules
 
-
-![linux-kernel](../../images/linux-kernel.PNG)
+  ![linux-kernel](../../images/linux-kernel.PNG)
 
 #### To understand a kernel in simple terms, let us use an analogy of a **`College Library`**. Here the librarian is equal to Linux Kernel.
 
@@ -27,8 +26,6 @@ In this section, we will take a look at the core concepts of a linux operating s
 
 ## Linux Kernel Versions
 
-![kernel-versions](../../images/kernel-versions.PNG)
-
 #### let us know identify the ways to identify linux kernel versions
 
 Use **`uname` command to get the information about the kernel (by itself it doesn't provide much information except that the system uses the **`Linux`** Kernel.
@@ -41,6 +38,7 @@ Use the **`uname -r`** or **`uname`** comamnd and option to print the kernel ver
 $ uname -r
 $ uname -a
 ```
+   ![kernel-versions](../../images/kernel-versions.PNG)
 
 ## Kernel and User Space
 
