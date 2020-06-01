@@ -42,5 +42,33 @@ $ uname -a
 
 ![kernel-versions](../../images/kernel-versions.PNG)
 
+## Kernel and User Space
+
+#### One of the important functions of the linux kernel is the **`Memory Management`** . We will now see how memory is seperated within the linux kernel
+
+Memory is divded into two areas.
+1. Kernel Space
+   1. Kernel Code
+   1. kernel Extensions
+   1. Device Drivers
+1. User Space
+   1. C
+   1. Java
+   1. Python
+   1. Ruby
+   1. Docker Containers
+   
+![memory-management](../../images/memory-management.PNG)
+
+#### Let us know see how programs running in the `User Space` work
+
+All user programs function by manipulating data that is stored in memory and on disk. User programs get access to data by making special request to the kernel called **`System Calls`**
+- Examples include, allocating memory by using variables or opening a file.
+
+![user-space](../../images/user-space.PNG)
+
+- For example, opening a file such as the **`/etc/os-release`** to see the operating system installed, results in a **`system call`**
+
+![user-space1](../../images/user-space1.PNG)
 
 
