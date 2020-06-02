@@ -20,7 +20,7 @@ In this section, we look at the boot process in a simplied manner by dividing it
  - **`POST`** Stands for **`Power On Self Test`**.
  - In this stage, BIOS runs a POST test, to ensure the hardware components that are attached to the device are functioning correctly, if POST fails the computer may not be operable and the system will not be proceed to next stage of the boot process
  
- ![bios](../../images/bios.PNG)
+ ![BIOS](../../images/BIOS.PNG)
  
  #### Boot Loader
  - The next stage after BIOS POST is **`Boot Loader`** after successful of POST test.
