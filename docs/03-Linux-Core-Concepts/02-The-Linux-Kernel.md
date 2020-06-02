@@ -28,7 +28,7 @@ In this section, we will take a look at the core concepts of a linux operating s
 
 #### let us know identify the ways to identify linux kernel versions
 
-Use **`uname` command to get the information about the kernel (by itself it doesn't provide much information except that the system uses the **`Linux`** Kernel.
+Use **`uname`** command to get the information about the kernel (by itself it doesn't provide much information except that the system uses the **`Linux`** Kernel.
 ```
 $ uname
 ```
