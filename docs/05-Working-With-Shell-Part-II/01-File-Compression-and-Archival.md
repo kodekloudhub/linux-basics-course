@@ -49,3 +49,42 @@ The **`tar`** command followed by **`-zcf`** option is used to compress the tarb
 $ tar -zcf test.tar
 ```
 
+## Compression
+
+Compression is the technique used to reduce the size consumed by a file or a dataset.
+- To reduce the size of a file or directory in the linux file system, there are commands specificly used for compression. 
+- Let us now look at the three popular ones
+  - bzip2 (.bz2 extension)
+  - gzip (.gz extension)
+  - xz (.xz extension)
+    
+    ```
+    $ bzip2 test.img
+    $ gzip test1.img
+    $ xz test2.img
+    ```
+  
+#### The space of the compressed files created by these three commands depends on a few factors, such as the type of data being compressed, the other factors that effect the size are the compression algorithm used by these commands and the compression level used.
+
+- The compressed files can be uncompressed by using the below commands
+  - bunzip2
+  - gunzip
+  - unxz
+    ```
+    $ bunzip2 test.img
+    $ gunzip test1.img
+    $ unxz test2.img
+    ```
+  
+        ![compress-uncompress](../../images/compress-uncompress.PNG)
+    
+#### Compressed files need not to be uncompressed everytime
+- Tools such as **`zcat`** , **`bzcat`** and **`xzcat`** allow the compressed files to be read without an uncompress
+  ```
+  $ zcat hostfile.txt.bz2
+  $ zcat hostfile.txt.gz
+  $ zcat hostfile.txt.xz
+  ```
+     ![compress-cat](../../images/compress-cat.PNG)
+
+
