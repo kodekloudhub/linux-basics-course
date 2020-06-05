@@ -76,7 +76,7 @@ Compression is the technique used to reduce the size consumed by a file or a dat
     $ unxz test2.img
     ```
   
-        ![compress-uncompress](../../images/compress-uncompress.PNG)
+     ![compress-uncompress](../../images/compress-uncompress.PNG)
     
 #### Compressed files need not to be uncompressed everytime
 - Tools such as **`zcat`** , **`bzcat`** and **`xzcat`** allow the compressed files to be read without an uncompress
