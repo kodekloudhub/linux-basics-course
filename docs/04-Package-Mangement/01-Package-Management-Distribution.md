@@ -31,7 +31,7 @@ One of the common ways to catagorize linux distribution is by the package manage
 - There are hundreds of linux distributions are there, these distributions runs different sets of tools and libraries, software and possibly even different linux kernels as a result of this a linux program may not run the same way from one system to another. To fix this problem packages include a manifest of dependencies or list of programs in versions that must be satified for the package software to run correctly on a given computer.
 - Take a look at the errors in the installation while attempting to install **`gimp.deb`** on this ubuntu 18.04 system, the dependencies failed as a result the installations failed. Bare in mind that each of these dependent packages may have dependencies of their own which makes package installation management a very tedious process. This is where a **`Package Manager`** comes into save the day.
 
-  ![package-errors](../../images/package-errors)
+  ![package-errors](../../images/package-errors.PNG)
   
 #### A package manager is a software in a linux system that provides the consistent and automated process in installing, upgrading, configuring and removing packages from the operating system.
 
@@ -39,7 +39,7 @@ One of the common ways to catagorize linux distribution is by the package manage
 
 ## Functions of Package Manager
 
-![functions-of-pkg](../../images/fucntions-of-pkg.PNG)
+![functions-of-pkg](../../images/functions-of-pkg.PNG)
 
 ## Types of Package Managers
 
