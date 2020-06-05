@@ -2,6 +2,8 @@
 
 In this section, we will take a look at how to locate a file or directory in the filesystem.
 - locate
+- find
+- grep
 
 ## locate
 Lets say you want to find the files with the name **`City.txt`**. Easiest way to do this is to make use of **`locate`** command.
