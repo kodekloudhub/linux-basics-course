@@ -48,8 +48,3 @@ A Linux distribution supports different types of package managers, some of the c
 ![types-of-pkg](../../images/types-of-pkg.PNG)
 
 
-
-
-- 
-
-
