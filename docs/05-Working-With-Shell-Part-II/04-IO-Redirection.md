@@ -45,3 +45,27 @@ If you want to execute and not print ERROR messages on the screen even if it gen
 $ cat missing_file 2> /dev/null
 ```
 
+## Command Line Pipes
+
+Command Line Pipes allow the linking of multiple commands.
+- In simple terms, pipes allows the first commands standard output to be used as the standard input for the second command.
+- The pipes are defined using vertical bar symbol (|).
+
+  ```
+  $ grep Hello sample.txt | less 
+  ```
+    ![pipe](../../images/pipe.PNG)
+    
+Another command to work with STDIN and STDOUT is the **`tee`** command.
+- Instead of the redirect operator, we can use the command line pipe **`(|)`** followed by **`tee`** command.
+  ```
+  $ echo $SHELL | tee shell.txt
+  ```
+     
+ - Use **`tee`** with -a option, to append instead of overwritting it
+   ```
+   $ echo "This is the bash shell" | tee -a
+   ```
+   
+      ![tee](../../images/tee.PNG)
+  
