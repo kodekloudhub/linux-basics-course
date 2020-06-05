@@ -8,7 +8,7 @@ In this section, we will take a look at **`RPM`** and **`YUM`** package managers
 
 This package manager is used in RHEL as well as other linux distributions but these re the most common ones. The File extensions for packages manage by RPM is **`.RPM`**
 
-![rpm](../../images/rpm.PNG]
+![rpm](../../images/rpm.PNG)
 
 #### Working with RPM
 
@@ -29,7 +29,7 @@ YUM is a free and opensource package manager.
 - Acts as a high level package manager but under the hood it still depeneds on **`RPM`** to manage packages on the linux systems.
 - Unlike RPM, YUM handles package dependencies very well (Automatic Dependency Resolution). It is able to install any dependencies packages to get the base package install on the linux system.
 
-  ![yum](../../images/yum.PNG]
+  ![yum](../../images/yum.PNG)
   
 #### Let us see how YUM installs a package.
 
