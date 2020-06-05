@@ -7,7 +7,7 @@ In this section, we will take a look at how to locate a file or directory in the
 
 ## locate
 Lets say you want to find the files with the name **`City.txt`**. Easiest way to do this is to make use of **`locate`** command.
-- Run **`locate` command followed by the filename you are searching as an argument. This should return all paths matching the pattern.
+- Run **`locate`** command followed by the filename you are searching as an argument. This should return all paths matching the pattern.
   ```
   $ locate City.txt
   ```
