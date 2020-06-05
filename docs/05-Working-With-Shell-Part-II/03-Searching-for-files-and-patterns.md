@@ -77,6 +77,12 @@ $ grep -B1 4 premier-league-table.txt
    ![grep1](../../images/grep1.PNG)
 
 
+Finally, the **`-A`** and **`-B`** can be combined into one single search.
+```
+$ grep -A1 -B1 Chelsea premier-league-table.txt
+```
+  ![grep2](../../images/grep2.PNG)
+   
 
 
 
