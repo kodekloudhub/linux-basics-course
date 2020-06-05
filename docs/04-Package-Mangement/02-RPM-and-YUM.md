@@ -6,7 +6,7 @@ In this section, we will take a look at **`RPM`** and **`YUM`** package managers
 
 ## RPM (Redhat Package Manager)
 
-This package manager is used in RHEL as well as other linux distributions but these re the most common ones. The File extensions for packages manage by RPM is **`.RPM`**
+This package manager is used in RHEL as well as other linux distributions but these are the most common ones. The File extensions for packages manage by RPM is **`.RPM`**
 
 ![rpm](../../images/rpm.PNG)
 
