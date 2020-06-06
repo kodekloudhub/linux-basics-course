@@ -1,6 +1,6 @@
 # Lab - VI Editor
 
-Go to insert mode
+Go to **`insert mode`**
 ```
 Press i
 ```
