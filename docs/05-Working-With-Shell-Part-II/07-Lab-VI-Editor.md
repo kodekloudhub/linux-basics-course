@@ -10,7 +10,7 @@ Exit from **`insert mode`** and go to **`command mode`**
 Press ESC
 ```
 
-To remove a character
+To **`remove`** a character
 ```
 Move Cursor to the characters to be removed and press x to remove them
 ```
