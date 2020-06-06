@@ -39,11 +39,11 @@ There are several options available, we will be focusing on the **`VI Editor`**.
    
  ## Insert Mode
 
-    ![insert](../../images/insert.PNG)
+   ![insert](../../images/insert.PNG)
     
  ## Last Line Mode
  
-    ![lastline](../../images/lastline.PNG)
+   ![lastline](../../images/lastline.PNG)
     
  
  #### There is another popular editor called **`VIM`** which is an improved version of **`VI`** with added features but very similar in appereance to VI.
