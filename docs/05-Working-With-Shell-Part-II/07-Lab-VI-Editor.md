@@ -5,7 +5,7 @@ Go to **`insert mode`**
 Press i
 ```
 
-Exit from insert mode
+Exit from **`insert mode`** and go to **`command mode`**
 ```
 Press ESC
 ```
