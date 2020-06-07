@@ -1,5 +1,7 @@
 # Linux Core Concepts
 
+- Take me to the [Video Tutorial](https://kodekloud.com/courses/873064/lectures/17080351)
+
 In this section, we will take a look at the core concepts of a linux operating system.
 - We will start with introduction to the linux kernel.
 - We will then learn about the kernel space and user space.
