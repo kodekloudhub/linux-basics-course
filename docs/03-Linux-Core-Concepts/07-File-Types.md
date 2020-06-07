@@ -1,5 +1,7 @@
 # File Types in Linux
 
+- Take me to the [Video Tutorial](https://kodekloud.com/courses/873064/lectures/17074379)
+
 In this section, we will take a look at different types of files in linux.
 - Everything is a file in Linux. 
   - Every object in linux can be considered to be a type of file, even a directory for example is a special type of file.
