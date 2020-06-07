@@ -1,5 +1,6 @@
 # LINUX ACCOUNTS
 
+  - Click [Here](https://kodekloud.com/courses/873064/lectures/17074499) for the tutorial
   - In this section we will take a look at basic access control in Linux.
   - We will also learn about about the file permissions. Lets Get Started!
 
