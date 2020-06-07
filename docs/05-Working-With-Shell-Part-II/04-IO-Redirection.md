@@ -1,5 +1,7 @@
 # IO Redirection
 
+- Take me to the [Video Tutorial](https://kodekloud.com/courses/873064/lectures/17080597)
+
 In this section, we will take a look at IO **`Redirection`**.
 - IO Redirection
 - Standard Streams in Linux
