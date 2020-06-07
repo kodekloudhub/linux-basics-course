@@ -1,5 +1,7 @@
 # LINUX FILE PERMISSIONS
 
+  - Take me to the [Tutorial](https://kodekloud.com/courses/873064/lectures/17074504)
+  
   - In this lecture we will learn about various file type identifiers.
   - We will also learn about various Linux file permissions that can be applied on the file or the directory.
 

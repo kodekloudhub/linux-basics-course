@@ -68,6 +68,8 @@
 
 # DOMAIN NAMES
 
+  - Take me to the [Tutorial](https://kodekloud.com/courses/873064/lectures/17074529)
+
   ![DNS](../images/dns.PNG)
 
   - .com - Commerical or General Purpose.

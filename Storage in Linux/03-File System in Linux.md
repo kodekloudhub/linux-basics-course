@@ -1,5 +1,7 @@
 # File System in Linux
 
+  - Take me to the [Tutorial](https://kodekloud.com/courses/873064/lectures/17074603)
+
   - In this lecture we will cover the most commonly used file systems from EXT2 to EXT4.
   
     ![fs](../images/fs.PNG)
