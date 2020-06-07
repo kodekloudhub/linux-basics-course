@@ -1,5 +1,7 @@
 # RPM and YUM Package Managers
 
+- Take me to the [Video Tutorial](https://kodekloud.com/courses/873064/lectures/17074421)
+
 In this section, we will take a look at **`RPM`** and **`YUM`** package managers in detail.
 - RPM
 - YUM
