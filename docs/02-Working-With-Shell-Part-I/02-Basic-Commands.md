@@ -1,5 +1,7 @@
 # Basic Linux Commands
 
+- Take me to the [Video Tutorial](https://kodekloud.com/courses/873064/lectures/17309223)
+
 In this section, we will take a look at basic linux commands 
 - Specifically related to navigation and creating new files and directories.
 - We will do this by completing a simple task using a linux shell.
