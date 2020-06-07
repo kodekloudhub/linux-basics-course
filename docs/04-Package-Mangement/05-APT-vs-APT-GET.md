@@ -1,5 +1,7 @@
 # APT vs APT-GET
 
+- Take me to the [Video Tutorial](https://kodekloud.com/courses/873064/lectures/17074428)
+
 #### Difference between APT vs APT-GET
 - APT is a more user friendly tool when compared to APT-GET
 - In all the latest debian based distros APT is already installed by default.
