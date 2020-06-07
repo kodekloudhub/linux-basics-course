@@ -1,5 +1,7 @@
 # Lab - Linux Kernel
 
+- Access Hands-On Labs here [Hands-On Labs](https://kodekloud.com/courses/873064/lectures/17074365)
+
 To check the exact kernel version that is running in this system. 
 ```
 $ uname -r
