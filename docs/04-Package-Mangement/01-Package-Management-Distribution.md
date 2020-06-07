@@ -1,5 +1,7 @@
 # Package Management Distribution
 
+- Take me to the [Video Tutorial](https://kodekloud.com/courses/873064/lectures/17074407)
+
 In this section, we will take a look at the Linux Package Management tools used in different linux distribution
 - Will start with introduction to the package management.
 
