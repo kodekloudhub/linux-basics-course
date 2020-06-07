@@ -1,5 +1,7 @@
 # Run Levels
 
+- Take me to the [Video Tutorial](https://kodekloud.com/courses/873064/lectures/17074377)
+
 ## Systemd Targets (Run Levels)
 
 We can setup the server to boot either into graphical mode or non-graphical mode. Linux can run in multiple modes and these modes are set by something called **`runlevel`**
