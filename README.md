@@ -4,6 +4,8 @@ These are notes from the [Linux Basics Course](https://kodekloud.com/p/the-linux
 
 # Sections
 
-[01-Introduction](docs/01-Introduction)
+- [01-Introduction](docs/01-Introduction)
 
-[02-Working-With-Shell-Part-I](docs/02-Working-With-Shell-Part-I)
+- [02-Working-With-Shell-Part-I](docs/02-Working-With-Shell-Part-I)
+
+  - [01-Introduction-to-Shell](docs/02-Working-With-Shell-Part-I/01-Introduction-to-Shell.md)
