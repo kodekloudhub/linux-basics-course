@@ -13,7 +13,7 @@ These are notes from the [Linux Basics Course](https://kodekloud.com/p/the-linux
   - [03-Command-Line-Help](docs/02-Working-With-Shell-Part-I/03-Command-Line-Help.md)
   - [04-Lab-Working-With-Shell](docs/02-Working-With-Shell-Part-I/04-lab-working-with-shell.md)
   - [05-Bash-Shell](docs/02-Working-With-Shell-Part-I/05-Bash-Shell.md)
-  - [06-Linux-Bash-Shell](docs/02-Working-With-Shell-Part-I/06-Lab-Linux-Bash-Shell.md)
+  - [06-Lab-Linux-Bash-Shell](docs/02-Working-With-Shell-Part-I/06-Lab-Linux-Bash-Shell.md)
   
 - [03-Linux-Core-Concepts](docs/03-Linux-Core-Concepts)
 
@@ -23,7 +23,7 @@ These are notes from the [Linux Basics Course](https://kodekloud.com/p/the-linux
   - [04-Lab-Linux-Kernel](docs/03-Linux-Core-Concepts/04-Lab-Linux-Kernel.md)
   - [05-Linux-Boot-Sequence](docs/03-Linux-Core-Concepts/05-Linux-Boot-Sequence.md)
   - [06-Run-Levels](docs/03-Linux-Core-Concepts/06-Run-Levels.md)
-  - [07-file-Types](docs/03-Linux-Core-Concepts/07-File-Types.md)
+  - [07-File-Types](docs/03-Linux-Core-Concepts/07-File-Types.md)
   - [08-Filesystem-Hierarchy](docs/03-Linux-Core-Concepts/08-Filesystem-Hierarchy.md)
   - [09-Lab-Linux-RunLevels-Filesystem-Hierarchy](docs/03-Linux-Core-Concepts/09-Lab-Linux-RunLevels-Filesystem-Hierarchy.md)
 
