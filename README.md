@@ -31,11 +31,11 @@ These are notes from the [Linux Basics Course](https://kodekloud.com/p/the-linux
 - [04-Package-Mangement](docs/04-Package-Mangement)
 
   - [01-Package-Management-Distribution](docs/04-Package-Mangement/01-Package-Management-Distribution.md)
-  - [02-RPM-and-YUM.md](docs/04-Package-Mangement/02-RPM-and-YUM.md)
+  - [02-RPM-and-YUM](docs/04-Package-Mangement/02-RPM-and-YUM.md)
   - [03-Lab-RPM-and-YUM](docs/04-Package-Mangement/03-Lab-RPM-and-YUM.md)
   - [04-DPKG-AND-APT](docs/04-Package-Mangement/04-DPKG-AND-APT.md)
-  - [05-APT-vs-APT-GET.md](docs/04-Package-Mangement/05-APT-vs-APT-GET.md)
-  - [06-Lab-DPKG-AND-APT.md](docs/04-Package-Mangement/06-Lab-DPKG-AND-APT.md)
+  - [05-APT-vs-APT-GET](docs/04-Package-Mangement/05-APT-vs-APT-GET.md)
+  - [06-Lab-DPKG-AND-APT](docs/04-Package-Mangement/06-Lab-DPKG-AND-APT.md)
 
 
 - [05-Working-With-Shell-Part-II](docs/05-Working-With-Shell-Part-II)
