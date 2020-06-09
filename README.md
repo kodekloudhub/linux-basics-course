@@ -2,7 +2,7 @@
 
 These are notes from the [Linux Basics Course](https://kodekloud.com/p/the-linux-basics-course) hosted on KodeKloud.
 
-# Sections
+# Table of Contents
 
 - [01-Introduction](docs/01-Introduction)
 
