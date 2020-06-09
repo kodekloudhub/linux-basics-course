@@ -48,6 +48,3 @@ These are notes from the [Linux Basics Course](https://kodekloud.com/p/the-linux
   - [06-Vi-Editor](docs/05-Working-With-Shell-Part-II/06-Vi-Editor.md)
   - [07-Lab-VI-Editor](docs/05-Working-With-Shell-Part-II/07-Lab-VI-Editor.md)
 
-  
-
-  
