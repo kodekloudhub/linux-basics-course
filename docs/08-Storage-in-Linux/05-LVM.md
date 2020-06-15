@@ -5,7 +5,7 @@
  - LVM allows grouping of multiple physical volumes, which are hard disks or partitions into a volume group.
  - Volumegroups can be carve out logical volumes.
 
-   ![LVM](../images/lvm.PNG)
+   ![LVM](../../images/lvm.PNG)
 
   #### Working with LVM
 
@@ -159,7 +159,7 @@
      /dev/mapper/caleston_vg-vol1 2.0G 1.6M 1.9G 1% /mnt/vol1
      ```
 
-     ![LVM2](../images/lvm2.PNG)
+     ![LVM2](../../images/lvm2.PNG)
 
 # HANDS-ON LABS
 

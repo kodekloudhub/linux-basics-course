@@ -4,7 +4,7 @@
   - In this section we will take a look at basic access control in Linux.
   - We will also learn about about the file permissions. Lets Get Started!
 
-    ![linux](../images/linux.PNG)
+    ![linux](../../images/linux.PNG)
 
 
   #### User Accounts
@@ -21,7 +21,7 @@
     [~]$ cat /etc/group
     ```
    
-    ![user](../images/user.PNG)
+    ![user](../../images/user.PNG)
     
   - Each user has a username and a unique ID assigned to them known as user ID or UID.
   - The user also has a GID, the group id they are part of, **`id`** command can be use to check these details. for eg:
@@ -38,7 +38,7 @@
     michael:x:1001:1001::/home/michael:/bin/sh
     ```
    
-    ![group](../images/group.PNG)
+    ![group](../../images/group.PNG)
 
   - To see the list of users currently logged use **`who`** command.
 
@@ -82,14 +82,14 @@
     [sudo] password for michael:
     ``` 
     
-    ![who](../images/who.PNG)
+    ![who](../../images/who.PNG)
 
   - Users listed in /etc/sudoers file can make use of sudo command for privledge escalation.
 
     ```
     [~]$ cat /etc/sudoers
     ```
-    ![sudo](../images/sudo.PNG)
+    ![sudo](../../images/sudo.PNG)
 
   - To restrict anyone from directly login as root login, this can be done by setting **`nologin`** shell.
 

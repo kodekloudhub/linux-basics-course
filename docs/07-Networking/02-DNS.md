@@ -70,18 +70,18 @@
 
 # DOMAIN NAMES
 
-  ![DNS](../images/dns.PNG)
+  ![DNS](../../images//dns.PNG)
 
   - .com - Commerical or General Purpose.
   - .net - Network or General Purpose.
   - .edu - Education Purpose
   - .org - Organizations for non profit organizations etc.
 
-  ![Root](../images/root.PNG)
+  ![Root](../../images//root.PNG)
 
 # RECORD TYPES
 
-  ![Record](../images/record.PNG)
+  ![Record](../../images//record.PNG)
   
   - A - IP to host names.
   - AAAA - Storing ipv6 to hostnames.

@@ -45,7 +45,7 @@
     bob@caleston-lp10 ~]$ ssh-keygen –t rsa
     ```
 
-    ![key](../images/key.PNG)
+    ![key](../../images//key.PNG)
 
   - To copy the Public key from the client to the remote server
 
@@ -53,7 +53,7 @@
     bob@caleston-lp10 ~]$ ssh-copy-id bob@devapp01
     ```
 
-    ![copy](../images/copy.PNG)
+    ![copy](../../images//copy.PNG)
 
  
   - Now **`Bob`** can login to remote server without password
@@ -62,7 +62,7 @@
     [bob@caleston-lp10 ~]$ ssh devapp01
     ```
 
-    ![pless](../images/pless.PNG)
+    ![pless](../../images//pless.PNG)
 
   - Public Key is copied to the remote server at :
 
@@ -70,7 +70,7 @@
     [bob@caleston-lp10 ~]$ cat /home/bob/.ssh/authorized_keys
     ```
    
-    ![auth](../images/auth.PNG)
+    ![auth](../../images//auth.PNG)
 
   #### SCP
 
@@ -86,4 +86,4 @@
      [bob@caleston-lp10 ~]$ scp –pr /home/bob/media/ devapp01:/home/bob
      ```
      
-     ![scp](../images/scp.PNG)
+     ![scp](../../images//scp.PNG)

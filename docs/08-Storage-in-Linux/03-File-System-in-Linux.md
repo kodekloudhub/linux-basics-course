@@ -4,7 +4,7 @@
 
   - In this lecture we will cover the most commonly used file systems from EXT2 to EXT4.
   
-    ![fs](../images/fs.PNG)
+    ![fs](../../images/fs.PNG)
 
   #### Working with Ext4 
 
@@ -46,7 +46,7 @@
     ```
   - **`fstab`** file attributes
 
-    ![fstab](../images/fstab.PNG)
+    ![fstab](../../images/fstab.PNG)
 
 # HANDS-ON LABS
 
