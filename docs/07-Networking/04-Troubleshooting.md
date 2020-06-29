@@ -5,7 +5,7 @@
   - In this lecture we will be going to troubleshooting the issue that **`Bob`** is facing.
   - Bob is not able to reach to the repository server and he get the error as show below.
 
-    ![site](../images/site.PNG)
+    ![site](../../images/site.PNG)
 
   #### Check Interfaces
 
@@ -62,7 +62,7 @@
     [caleston-repo-01: ~]$ netstat -an | grep 80 | grep -i LISTEN
     ```
 
-    ![net](../images/net.PNG)
+    ![net](../../images/net.PNG)
     
   - To bring up the interface up use below command.
 
@@ -70,4 +70,4 @@
     [caleston-repo-01: ~]$ ip link set dev enp1s0f1 up
     ```
 
-    ![iplink](../images/iplink.PNG)
+    ![iplink](../../images/iplink.PNG)

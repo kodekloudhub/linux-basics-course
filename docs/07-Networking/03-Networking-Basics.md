@@ -6,7 +6,7 @@
 
   - Switching helps to connect the interface within same network.
 
-    ![switch](../images/switch.PNG)
+    ![switch](../../images//switch.PNG)
 
   - To see the interfaces on the hosts use **`ip link`** command
 
@@ -26,7 +26,7 @@
 
   - Router helps to connect to two seprate networks together.
 
-    ![route](../images/routing.PNG)
+    ![route](../../images//routing.PNG)
 
   - To see the existing routing table configuration run the **`route`** command.
 

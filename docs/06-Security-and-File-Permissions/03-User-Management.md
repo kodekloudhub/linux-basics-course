@@ -18,7 +18,7 @@
     bob:x:1002:1002::/home/bob:/bin/sh
     ```
 
-    ![useradd](../images/useradd.PNG)
+    ![useradd](../../images//useradd.PNG)
   
   - To check the uid or username of the user logged in user **`whoami`** command.
 
@@ -53,7 +53,7 @@
     [~]$ useradd -u 1009 -g 1009 -d /home/robert -s /bin/bash -c ”Mercury Project member" bob
     ```
 
-    ![manage](../images/manage.PNG)
+    ![manage](../../images//manage.PNG)
      
   - To delete a user use **`userdel`** command
 

@@ -16,7 +16,7 @@
     USERNAME:PASSWORD:UID:GID:GECOS:HOMEDIR:SHELL
     ```
    
-    ![passwd](../images/passwd.PNG)
+    ![passwd](../../images//passwd.PNG)
 
   - Password are stored under **`/etc/shadow`**
 
@@ -28,7 +28,7 @@
     USERNAME:PASSWORD:LASTCHANGE:MINAGE:MAXAGE:WARN:INACTIVE:EXPDATE
     ```
 
-    ![shadow](../images/shadow.PNG)
+    ![shadow](../../images//shadow.PNG)
 
   - Check the groups **`bob`** belongs too
 
@@ -37,7 +37,7 @@
     NAME:PASSWORD:GID:MEMBERS
     ```
 
-    ![egp](../images/egp.PNG)
+    ![egp](../../images//egp.PNG)
 
 # HANDS-ON LABS
 

@@ -7,7 +7,7 @@
 - External Storage Devices such as DAS,NAS, and SAN.
 - LVM in Action.
 
-  ![Disk](../images/disk.PNG)
+  ![Disk](../../images//disk.PNG)
   
   #### List all Block devices
   
@@ -31,7 +31,7 @@
 
   #### Partition Types - 
   
-  ![Part](../images/partition.PNG)
+  ![Part](../../images//partition.PNG)
 
   - PRIMARY - Use to Boot an Operating System.
   - EXTENDED - Can host logical partitions but cannot be used on its own.

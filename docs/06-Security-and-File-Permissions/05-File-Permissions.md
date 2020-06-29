@@ -5,10 +5,10 @@
   - In this lecture we will learn about various file type identifiers.
   - We will also learn about various Linux file permissions that can be applied on the file or the directory.
 
-    ![perm](../images/perm.PNG)
+    ![perm](../../images//perm.PNG)
 
 
-    ![type](../images/type.PNG)
+    ![type](../../images//type.PNG)
 
 
   #### Directory Permission
@@ -35,7 +35,7 @@
 
   - Linux file permissions are defined as 
 
-    ![filep](../images/filep.PNG)
+    ![filep](../../images//filep.PNG)
 
   #### Modifying file permissions
 
