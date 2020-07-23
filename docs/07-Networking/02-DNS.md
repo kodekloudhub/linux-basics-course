@@ -52,7 +52,7 @@
     192.168.1.62 nfs-prod
     ```
 
-  - Every host has a DNS resolution file **`/etc/rsolve.conf`**
+  - Every host has a DNS resolution file **`/etc/resolv.conf`**
 
     ```
     [~]$ cat /etc/resolv.conf
@@ -126,4 +126,4 @@
 
 # HANDS-ON LABS
   
-  - Lets have some fun and challenging [excerises](https://kodekloud.com/courses/873064/lectures/17074530)
+  - Lets have some fun and challenging [exercises](https://kodekloud.com/courses/873064/lectures/17074530)
