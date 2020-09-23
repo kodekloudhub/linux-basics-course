@@ -23,13 +23,13 @@
   - To exports all the mounts defined in **`/etc/exports`** use 
 
     ```
-    [~]$ exportsfs -a
+    [~]$ exportfs -a
     ```
 
   - To manually export a directory use below command
 
     ```
-    [~]$ exportsfs -o 10.61.35.201:/software/repos
+    [~]$ exportfs -o 10.61.35.201:/software/repos
     ```
   
 # HANDS-ON LABS
