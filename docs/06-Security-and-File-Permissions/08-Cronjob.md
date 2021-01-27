@@ -13,17 +13,27 @@ The basic usage of **cron** is to execute a job in a specific time. The **`cront
 ### Expressions used and Description
 
     ![specialstring](../../images//cronspclstring.PNG)
+	
+	
     ![specialcharacter](../../images//cronspchar.PNG)
+	
 
 #### Crontab commands
+
     
      ![command](../../images//croncmd.PNG)
+	 
 
 ##### Crontab Examples
 
 */30 * * * *	Every 30 mins
+
 0 * * * *	Every hour
+
 0 0 * * 0	At midnight of every Sunday
+
 0 0 0 15 * *	Every 15th of month (monthly)
+
 0 0 0 1 1 *	Every 1st of january (yearly)
+
 @reboot	        Every reboot
