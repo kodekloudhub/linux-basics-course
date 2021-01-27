@@ -12,16 +12,14 @@ The basic usage of **cron** is to execute a job in a specific time. The **`cront
 
 ### Expressions used and Description
 
-    ![specialstring](../../images//cronspclstring.PNG)
-	
-	
-    ![specialcharacter](../../images//cronspchar.PNG)
-	
+   ![specialstring](../../images//cronspclstring.PNG)
+   
+   ![specialcharacter](../../images//cronspchar.PNG)
 
 #### Crontab commands
 
     
-     ![command](../../images//croncmd.PNG)
+    ![command](../../images//croncmd.PNG)
 	 
 
 ##### Crontab Examples
