@@ -19,7 +19,7 @@ The basic usage of **cron** is to execute a job in a specific time. The **`cront
 #### Crontab commands
 
     
-    ![command](../../images//croncmd.PNG)
+   ![command](../../images//croncmd.PNG)
 	 
 
 ##### Crontab Examples
