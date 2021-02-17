@@ -84,7 +84,7 @@ $ pwd
 /etc/var/tmp
 ```
 
-To return back to origin directoy(say your home directory), use the **`popd`** command
+To return back to origin directory(say your home directory), use the **`popd`** command
 ```
 $ popd
 ```
