@@ -18,8 +18,11 @@ The basic usage of **cron** is to execute a job in a specific time. The **`cront
 #### Crontab commands
 
 crontab -e	Edit or create a crontab file if doesn’t already exist.
+
 crontab -l	Display the crontab file.
+
 crontab -r	Remove the crontab file.
+
 crontab -v	Display the last time you edited your crontab file.    
 
 	 
