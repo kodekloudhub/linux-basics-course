@@ -17,29 +17,29 @@ The basic usage of **cron** is to execute a job in a specific time. The **`cront
 
 #### Crontab commands
 
-crontab -e	Edit or create a crontab file if doesn’t already exist.
+**crontab -e**	Edit or create a crontab file if doesn’t already exist.
 
-crontab -l	Display the crontab file.
+**crontab -l**	Display the crontab file.
 
-crontab -r	Remove the crontab file.
+**crontab -r**	Remove the crontab file.
 
-crontab -v	Display the last time you edited your crontab file.    
+**crontab -v**	Display the last time you edited your crontab file.    
 
 	 
 
 ##### Crontab Examples
 
-*/30 * * * *	Every 30 mins
+*/30 * * * *    **Every 30 mins**
 
-0 * * * *	Every hour
+0 * * * *	    **Every hour**
 
-0 0 * * 0	At midnight of every Sunday
+0 0 * * 0	    **At midnight of every Sunday**
 
-0 0 0 15 * *	Every 15th of month (monthly)
+0 0 0 15 * *	**Every 15th of month (monthly)**
 
-0 0 0 1 1 *	Every 1st of january (yearly)
+0 0 0 1 1 *	    **Every 1st of january (yearly)**
 
-@reboot	        Every reboot
+@reboot	        **Every reboot**
 
 
 Referal:  https://quickref.me/cron
