@@ -121,7 +121,7 @@ $ cp -r Europe/UK Europe/UnitedKingdom
 
 To print the content of a file. Run **`cat /path/to/<filename>`** command
 ```
-$cat Asia/India/Mumbai/City.txt
+$ cat Asia/India/Mumbai/City.txt
 ```
 
 To add a content to a file with cat(redirect) . Run **`cat > /path/to/<filename>`** command
