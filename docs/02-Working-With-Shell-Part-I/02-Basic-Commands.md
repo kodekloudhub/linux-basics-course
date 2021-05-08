@@ -56,6 +56,10 @@ $ cd
 
 ![Absolute_and_relative_path_working_with_shell_I](../../images/Absolute_and_relative_path_working_with_shell_I.PNG)
 
+**Difference Between Absolute and Relative Path**
+
+- **Absolute Path** : An absolute path is defined as specifying the location of a file or directory from the root directory(/).
+- **Relative Path** : Relative path is defined as the path related to the present working directly(pwd).
 
 To change to a directory with absolute path. Run **`cd <directory_path>`**
 ```
