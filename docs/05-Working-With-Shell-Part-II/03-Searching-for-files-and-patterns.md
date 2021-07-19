@@ -1,6 +1,6 @@
 # Searching for files and Patterns
 
-- Take me to the [Video Tutorial](https://kodekloud.com/courses/873064/lectures/17080595)
+- Take me to the [Video Tutorial](https://kodekloud.com/topic/searching-for-files-and-patterns/)
 
 In this section, we will take a look at how to locate a file or directory in the filesystem.
 - locate

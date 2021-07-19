@@ -1,6 +1,6 @@
 # The Linux Basics Course
 
-These are notes from the [Linux Basics Course](https://bit.ly/3gGnxm0) hosted on KodeKloud.
+These are notes from the [Linux Basics Course](https://kodekloud.com/courses/the-linux-basics-course/) hosted on KodeKloud.
 
 # Table of Contents
 
@@ -57,7 +57,7 @@ These are notes from the [Linux Basics Course](https://bit.ly/3gGnxm0) hosted on
   - [05-File-Permissions](docs/06-Security-and-File-Permissions/05-File-Permissions.md)
   - [06-SSH-and-SCP](docs/06-Security-and-File-Permissions/06-SSH-and-SCP.md)
   - [07-IPtables](docs/06-Security-and-File-Permissions/07-IPtables.md)
-  - [08-Cronjob](docs/06-Security-and-File-Permissions/08-Cronjob.md)
+  - [08-Cronjob](docs/06-Security-and-File-Permissions/08-cronjob.md)
 
 - [07-Networking](docs/07-Networking)
 

@@ -1,6 +1,6 @@
 # Vi Editor
 
-- Take me to the [Video Tutorial](https://kodekloud.com/courses/873064/lectures/17080600)
+- Take me to the [Video Tutorial](https://kodekloud.com/topic/vi-editor/)
 
 In this section, we will take a look at console based text editors in linux.
 - It is not feasible using **`cat`** when dealing with large amounts of text or for writing code. This is why we use text editors

@@ -1,6 +1,6 @@
 # File System in Linux
 
-  - Take me to the [Tutorial](https://kodekloud.com/courses/873064/lectures/17074603)
+  - Take me to the [Tutorial](https://kodekloud.com/topic/file-systems-in-linux/)
 
   - In this lecture we will cover the most commonly used file systems from EXT2 to EXT4.
   

@@ -1,6 +1,6 @@
 # DNS
 
-  - Take me to the [Tutorial](https://kodekloud.com/courses/873064/lectures/17074529)
+  - Take me to the [Tutorial](https://kodekloud.com/topic/dns/)
 
   - The domain name system is a distributed way to share these name-to-IP associations instead of requiring each computer to synchronize a hosts file. A name server publishes the IP address for a domain and provides a single location to update when an IP changes.
 

@@ -1,6 +1,6 @@
 # Lab - Linux Kernel
 
-- Access Hands-On Labs here [Hands-On Labs](https://kodekloud.com/courses/873064/lectures/17074365)
+- Access Hands-On Labs here [Hands-On Labs](https://kodekloud.com/topic/lab-linux-kernel-lsmod-insmod-modprobe-uname/)
 
 To check the exact kernel version that is running in this system. 
 ```

@@ -1,6 +1,6 @@
 # DISK'S & PARTITIONS
 
-- Take me to the [Tutorial](https://kodekloud.com/courses/873064/lectures/17074601)
+- Take me to the [Tutorial](https://kodekloud.com/topic/disk-partitions/)
 
 - In this lecture we will learn about Disk Partitions. 
 - We will look at the File Systems such as EXT series and NFS.

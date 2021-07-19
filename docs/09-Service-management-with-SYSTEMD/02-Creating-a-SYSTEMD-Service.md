@@ -1,6 +1,6 @@
 # Creating your own SYSTEMD Service
 
-- Take me to the [Tutorial](https://kodekloud.com/courses/873064/lectures/17074644)
+- Take me to the [Tutorial](https://kodekloud.com/topic/creating-a-systemd-service/)
 
 In this lecture we will learn how to create a SYSTEMD Service.
 - All the major distributions, such as Rhel, CentOS, Fedora, Ubuntu, Debian and Archlinux, adopted systemd as their init system.
