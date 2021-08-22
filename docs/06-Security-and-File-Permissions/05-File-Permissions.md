@@ -25,7 +25,7 @@
     [~]$ whoami
     ```
  
-  - To change the change the directory
+  - To change the directory
 
     ```
     [~]$ cd /home/bob/random_dir
