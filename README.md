@@ -83,6 +83,6 @@ These are notes from the [Linux Basics Course](https://bit.ly/3gGnxm0) hosted on
 
 - [10-The-Client-Demonstration](docs/10-The-Client-Demonstration)
 
-  - [01-Client-Demonstration-in-Jeopardy!(story)](docs/10-The-Client-Demonstration/01-Client-Demonstration-in-Jeopardy!(story).md)
+  - [01-Client-Demonstration-in-Jeopardy! (story)](docs/10-The-Client-Demonstration/01-Client-Demonstration-in-Jeopardy!(story).md)
   - [02-Troubleshoot-the-Development-Environment](docs/10-The-Client-Demonstration/02-Troubleshoot-the-Development-Environment.md)
   - [03-Finale(story)](docs/10-The-Client-Demonstration/03-Finale(story).md)
