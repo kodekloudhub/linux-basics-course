@@ -1,6 +1,6 @@
 # Cronjob in Linux
 
-  - Take me to the [Tutorial](https://kodekloud.com/topic/cronjobs/)
+  - Take me to the [Tutorial](https://kodekloud.com/courses/873064/lectures/24032686)
   - In this lecture we will learn about **Cronjobs** in Linux .
 
 
