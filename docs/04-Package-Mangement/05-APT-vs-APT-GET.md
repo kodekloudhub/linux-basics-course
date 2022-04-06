@@ -1,6 +1,6 @@
 # APT vs APT-GET
 
-- Take me to the [Video Tutorial](https://kodekloud.com/courses/873064/lectures/17074428)
+- Take me to the [Video Tutorial](https://kodekloud.com/topic/apt-vs-apt-get/)
 
 #### Difference between APT vs APT-GET
 - APT is a more user friendly tool when compared to APT-GET

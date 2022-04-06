@@ -1,6 +1,6 @@
 # File Compression and Archival
 
-- Take me to the [Video Tutorial](https://kodekloud.com/courses/873064/lectures/17080556)
+- Take me to the [Video Tutorial](https://kodekloud.com/topic/file-compression-and-archival/)
 
 In this section, we will take a look to compress and archive files
 - File Compression and Archival

@@ -1,6 +1,6 @@
 # SYSTEMD Tools to Manage SYSTEMD service
 
-  - Take me to the [Tutorial](https://kodekloud.com/courses/873064/lectures/17074645)
+  - Take me to the [Tutorial](https://kodekloud.com/topic/systemd-tools/)
 
   In this lecture we will explore two major SYSTEMD tools:
   - SYSTEMCTL

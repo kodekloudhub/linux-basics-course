@@ -1,6 +1,6 @@
 # TROUBLESHOOTING 
 
-  - - Take me to the [Tutorial](https://kodekloud.com/courses/873064/lectures/17074532)
+  - Take me to the [Tutorial](https://kodekloud.com/topic/troubleshooting/)
 
   - In this lecture we will be going to troubleshooting the issue that **`Bob`** is facing.
   - Bob is not able to reach to the repository server and he get the error as show below.

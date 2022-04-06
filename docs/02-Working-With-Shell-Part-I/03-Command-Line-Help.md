@@ -1,6 +1,6 @@
 # Using command line to get help
 
-- Take me to the [Video Tutorial](https://kodekloud.com/courses/873064/lectures/17309225)
+- Take me to the [Video Tutorial](https://kodekloud.com/topic/command-line-help-3/)
 
 In this section we will learn how to use **`help`** command to get help in command line
 - If you are new to using `linux` or `bash shell`  or if you are not sure which command does what, there are few commands in bash that can help get started. 

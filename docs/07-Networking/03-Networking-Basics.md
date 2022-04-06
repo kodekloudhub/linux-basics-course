@@ -1,6 +1,6 @@
 # Switching & Routing 
 
-  - Take me to the [Tutorial](https://kodekloud.com/courses/873064/lectures/17074531)
+  - Take me to the [Tutorial](https://kodekloud.com/topic/networking-basics/)
 
   #### Switching
 

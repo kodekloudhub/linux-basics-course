@@ -1,6 +1,6 @@
 # Filesystem Hierarchy
 
-- Take me to the [Video Tutorial](https://kodekloud.com/courses/873064/lectures/17074387)
+- Take me to the [Video Tutorial](https://kodekloud.com/topic/filesystem-hierarchy/)
 
 In this section, lets take a look at the **`filesystem hierarchy`**
 - Linux uses  single rooted, inverted tree like file system
