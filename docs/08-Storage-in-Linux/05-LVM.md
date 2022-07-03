@@ -151,7 +151,7 @@
     (4k) blocks long.
     ```
 
-   - Now run **`df -hp`** command to verify the size of the mounted filesystem
+   - Now run **`df -hP`** command to verify the size of the mounted filesystem
 
      ```
      [~]$ df –hP /mnt/vol1
