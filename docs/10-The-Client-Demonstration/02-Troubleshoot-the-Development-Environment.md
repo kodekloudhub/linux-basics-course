@@ -167,7 +167,7 @@
     Python3 manage.py migrate
     ```
 
-    Start the app again so the question will vaildate.
+    Start the app again so the question will validate.
 
     **What is this venv stuff?**
 
