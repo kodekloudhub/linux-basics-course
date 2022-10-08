@@ -177,7 +177,7 @@
 1.  <details>
     <summary>Well done! Now, for the final task before the client presentation.</summary>
 
-    Here we have to create a [systemd unit file](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_basic_system_settings/assembly_working-with-systemd-unit-files_configuring-basic-system-settings) to make the python app be runnable as a service.
+    Here we have to create a [systemd unit file](https://kodekloud.com/topic/creating-a-systemd-service/) to make the python app be runnable as a service.
 
     First quit the running webapp by pressing `CTRL-C`
 
