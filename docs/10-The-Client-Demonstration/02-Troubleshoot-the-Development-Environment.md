@@ -97,7 +97,7 @@
 
     </details>
 1.  <details>
-    <summary>Back on the devapp01 webserver. Attempt to start the web application by:</br>Navigate to the directory /opt/caleston-code/mercuryProject</br>Next, run the command Python3 manage.py runserver 0.0.0.0:8000</summary>
+    <summary>Back on the devapp01 webserver. Attempt to start the web application by:</br>Navigate to the directory /opt/caleston-code/mercuryProject</br>Next, run the command python3 manage.py runserver 0.0.0.0:8000</summary>
 
     At this point you are still logged into `devdb01`, so first return to Bob's laptop
 
@@ -111,7 +111,7 @@
     ssh devapp01
 
     cd /opt/caleston-code/mercuryProject
-    Python3 manage.py runserver 0.0.0.0:8000
+    python3 manage.py runserver 0.0.0.0:8000
     ```
 
     Note it dumps a stack trace on the screen, i.e. it crashed! Thus the answer is `No`.
@@ -164,7 +164,7 @@
 
     ```bash
     source ../venv/bin/activate
-    Python3 manage.py migrate
+    python3 manage.py migrate
     ```
 
     Start the app again so the question will validate.
@@ -181,10 +181,10 @@
 
     First quit the running webapp by pressing `CTRL-C`
 
-    Note that in unit files, the process to execute (in this case `Python3`) we must use its fully qualified path, as `systemd` does not have a search path. Get this like this
+    Note that in unit files, the process to execute (in this case `python3`) we must use its fully qualified path, as `systemd` does not have a search path. Get this like this
 
     ```bash
-    which Python3
+    which python3
     ```
 
     Now create the unit file
@@ -200,7 +200,7 @@
     Description=Project Mercury Web Application
 
     [Service]
-    ExecStart=/usr/bin/Python3 manage.py runserver 0.0.0.0:8000
+    ExecStart=/usr/bin/python3 manage.py runserver 0.0.0.0:8000
     Restart=on-failure
     WorkingDirectory=/opt/caleston-code/mercuryProject/
     User=mercury
