@@ -97,7 +97,7 @@
 
     </details>
 1.  <details>
-    <summary>Back on the devapp01 webserver. Attempt to start the web application by:</br>Navigate to the directory /opt/caleston-code/mercuryProject</br>Next, run the command python3 manage.py runserver 0.0.0.0:8000</summary>
+    <summary>Back on the devapp01 webserver. Attempt to start the web application by:</br>Navigate to the directory /opt/caleston-code/mercuryProject</br>Next, run the command Python3 manage.py runserver 0.0.0.0:8000</summary>
 
     At this point you are still logged into `devdb01`, so first return to Bob's laptop
 
@@ -111,7 +111,7 @@
     ssh devapp01
 
     cd /opt/caleston-code/mercuryProject
-    python3 manage.py runserver 0.0.0.0:8000
+    Python3 manage.py runserver 0.0.0.0:8000
     ```
 
     Note it dumps a stack trace on the screen, i.e. it crashed! Thus the answer is `No`.
@@ -164,27 +164,27 @@
 
     ```bash
     source ../venv/bin/activate
-    python3 manage.py migrate
+    Python3 manage.py migrate
     ```
 
     Start the app again so the question will vaildate.
 
     **What is this venv stuff?**
 
-    If you're considering learning Python (highly recommended as it is required in most DevOps jobs), this means Virtual ENVironment. It allows you to install python packages on a project-by-project basis, thus not polluting the main Python installation.
+    If you're considering learning Python (highly recommended as it is required in many DevOps jobs), this means Virtual ENVironment. It allows you to install Python packages on a project-by-project basis, thus not polluting the main Python installation. This is especially useful on your development environment where you may have multiple Python projects all with different package requirements.
 
     </details>
 1.  <details>
     <summary>Well done! Now, for the final task before the client presentation.</summary>
 
-    Here we have to create a [systemd unit file](https://kodekloud.com/topic/creating-a-systemd-service/) to make the python app be runnable as a service.
+    Here we have to create a [systemd unit file](https://kodekloud.com/topic/creating-a-systemd-service/) to make the Python app be runnable as a service.
 
     First quit the running webapp by pressing `CTRL-C`
 
-    Note that in unit files, the process to execute (in this case `python3`) we must use its fully qualified path, as `systemd` does not have a search path. Get this like this
+    Note that in unit files, the process to execute (in this case `Python3`) we must use its fully qualified path, as `systemd` does not have a search path. Get this like this
 
     ```bash
-    which python3
+    which Python3
     ```
 
     Now create the unit file
@@ -200,7 +200,7 @@
     Description=Project Mercury Web Application
 
     [Service]
-    ExecStart=/usr/bin/python3 manage.py runserver 0.0.0.0:8000
+    ExecStart=/usr/bin/Python3 manage.py runserver 0.0.0.0:8000
     Restart=on-failure
     WorkingDirectory=/opt/caleston-code/mercuryProject/
     User=mercury
