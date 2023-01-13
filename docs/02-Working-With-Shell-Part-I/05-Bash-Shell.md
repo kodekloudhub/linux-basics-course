@@ -45,10 +45,12 @@ $ chsh
  
  In Linux, environment variables are used to store information that can be used by the shell and by other programs.
  
+ 
  To print **`SHELL`** environment variable
  ```
  $ echo $SHELL
  ```
+ Here the word SHELL in upper case represents an enviromnment variable that stores the type of shell used by the user.
  
  To see a list of all environment variables. Run **`env`** from the terminal
  ```
