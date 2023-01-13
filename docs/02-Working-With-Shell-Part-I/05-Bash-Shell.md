@@ -43,6 +43,8 @@ $ chsh
    
  ## Bash environment variables
  
+ In Linux, environment variables are used to store information that can be used by the shell and by other programs.
+ 
  To print **`SHELL`** environment variable
  ```
  $ echo $SHELL
