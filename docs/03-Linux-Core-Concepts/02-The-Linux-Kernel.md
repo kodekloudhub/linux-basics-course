@@ -9,6 +9,7 @@ In this section, we will take a look at the core concepts of a linux operating s
 ## Linux Kernel
 
 #### If you have worked with any operating system, you have run into the term kernel. 
+Kernel is the major component of an operating system and is the core interface between the computer's hardware and its processes.
 
 - The Linux kernel is monolithic, this means that the kernel carrries out CPU scheduling, memory management and several operations by itselfs. 
 - The Linux Kernel is also modular, which means it can extends its capabilities through the use of dynamically loaded kernel modules
@@ -38,7 +39,7 @@ $ uname
 Use the **`uname -r`** or **`uname`** comamnd and option to print the kernel version
 ```
 $ uname -r
-$ uname -a
+$ uname
 ```
    ![kernel-versions](../../images/kernel-versions.PNG)
 
@@ -46,12 +47,14 @@ $ uname -a
 
 #### One of the important functions of the linux kernel is the **`Memory Management`** . We will now see how memory is seperated within the linux kernel
 
+Kernel space and user space refer to the two different modes in which the Linux operating system can execute code. 
+
 Memory is divded into two areas.
-1. Kernel Space
+1. Kernel Space : Kernel space is the privileged mode of the operating system, where the kernel and device drivers run. In this mode, the code has direct access to the hardware and system resources, and can execute any CPU instruction. And for an analogy, if the kernel is like a librarian, the kernel space is the restricted part of the library that only the librarian can access.
    1. Kernel Code
-   1. kernel Extensions
+   1. Kernel Extensions
    1. Device Drivers
-1. User Space
+1. User Space : User space is the non-privileged mode, where user-level applications run. In this mode, the code does not have direct access to hardware or system resources, and is restricted in the CPU instructions it can execute.
    1. C
    1. Java
    1. Python
