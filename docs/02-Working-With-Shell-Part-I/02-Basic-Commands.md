@@ -155,7 +155,7 @@ To get the long list of files and directories. Run **`ls -l`** command
 $ ls -l
 ```
 
-To list all files including the hidden. Run **`ls -la`** command
+To list all files including the hidden. Run **`ls -a`** command
 ```
 $ ls -a
 ```
