@@ -1,5 +1,7 @@
 # IPTABLES
 
+Iptables is a command line utility in Linux that allows administrators to configure the kernel's built-in firewall. 
+
   - Take me to the [Tutorial](https://kodekloud.com/topic/iptables-introduction/)
   - In this lecture, we will learn about IPtables basic commands.
   
