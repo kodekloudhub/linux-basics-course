@@ -39,7 +39,7 @@
 
   #### Creating Partitions - 
 
-  - **`Gdisk`** is an improved version of the **`fdisk`** that works with the GTP partition table.
+  - **`Gdisk`** is an improved version of the **`fdisk`** that works with the GPT partition table.
   - To create a partition on **`sdb`** use
      
     ```
