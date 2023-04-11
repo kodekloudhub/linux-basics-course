@@ -4,9 +4,9 @@
 
   - Now that you are familiar with basic of storage in Linux lets learn about external storage.
 
-  - DAS - Direct Attached Storage, external storage is attached directly to the host system tha requires the space.
+  - DAS - Direct Attached Storage, external storage is attached directly to the host system that requires the space.
   - NAS - Network Attached Storage quite similar to NFS server.
-  - SAN - Storage Aread Network, this technology uses a fiber channel for providing high-speed storage.
+  - SAN - Storage Area Network, this technology uses a fiber channel for providing high-speed storage.
 
   #### NFS
   
@@ -23,7 +23,7 @@
   - To exports all the mounts defined in **`/etc/exports`** use 
 
     ```
-    [~]$ exportfs -a
+    [~]$ exports -a
     ```
 
   - To manually export a directory use below command
