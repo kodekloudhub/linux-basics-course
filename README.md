@@ -14,7 +14,7 @@ These are notes from the [Linux Basics Course](https://bit.ly/3gGnxm0) hosted on
   - [04-Lab-Working-With-Shell](docs/02-Working-With-Shell-Part-I/04-lab-working-with-shell.md)
   - [05-Bash-Shell](docs/02-Working-With-Shell-Part-I/05-Bash-Shell.md)
   - [06-Lab-Linux-Bash-Shell](docs/02-Working-With-Shell-Part-I/06-Lab-Linux-Bash-Shell.md)
-  
+
 - [03-Linux-Core-Concepts](docs/03-Linux-Core-Concepts)
 
   - [01-Bobs-First-Team-Meeting](docs/03-Linux-Core-Concepts/01-Bobs-first-team-meeting.md)
@@ -48,7 +48,15 @@ These are notes from the [Linux Basics Course](https://bit.ly/3gGnxm0) hosted on
   - [06-Vi-Editor](docs/05-Working-With-Shell-Part-II/06-Vi-Editor.md)
   - [07-Lab-VI-Editor](docs/05-Working-With-Shell-Part-II/07-Lab-VI-Editor.md)
 
-- [06-Security-and-File-Permissions](docs/06-Security-and-File-Permissions)
+
+- [06-Networking](docs/07-Networking)
+
+  - [01-The-Network-Issue(story)](docs/07-Networking/01-The-Network-Issue(story).md)
+  - [02-DNS](docs/07-Networking/02-DNS.md)
+  - [03-Networking-Basics](docs/07-Networking/03-Networking-Basics.md)
+  - [04-Troubleshooting](docs/07-Networking/04-Troubleshooting.md)
+
+- [07-Security-and-File-Permissions](docs/06-Security-and-File-Permissions)
 
   - [01-The-Security-Incident(story)](docs/06-Security-and-File-Permissions/01-The-Security-Incident(story).md)
   - [02-Linux-Accounts](docs/06-Security-and-File-Permissions/02-Linux-Accounts.md)
@@ -59,14 +67,13 @@ These are notes from the [Linux Basics Course](https://bit.ly/3gGnxm0) hosted on
   - [07-IPtables](docs/06-Security-and-File-Permissions/07-IPtables.md)
   - [08-Cronjob](docs/06-Security-and-File-Permissions/08-Cronjob.md)
 
-- [07-Networking](docs/07-Networking)
+- [08-Service-management-with-SYSTEMD](docs/09-Service-management-with-SYSTEMD)
 
-  - [01-The-Network-Issue(story)](docs/07-Networking/01-The-Network-Issue(story).md)
-  - [02-DNS](docs/07-Networking/02-DNS.md)
-  - [03-Networking-Basics](docs/07-Networking/03-Networking-Basics.md)
-  - [04-Troubleshooting](docs/07-Networking/04-Troubleshooting.md)
+  - [01-Working-Overtime-Story](docs/09-Service-management-with-SYSTEMD/01-Working-Overtime-Story.md)
+  - [02-Creating-a-SYSTEMD-Service](docs/09-Service-management-with-SYSTEMD/02-Creating-a-SYSTEMD-Service.md)
+  - [03-SYSTEMD-Tools](docs/09-Service-management-with-SYSTEMD/03-SYSTEMD-Tools.md)
 
-- [08-Storage-in-Linux](docs/08-Storage-in-Linux)
+- [09-Storage-in-Linux](docs/08-Storage-in-Linux)
 
   - [01-Where's-my-Storage](docs/08-Storage-in-Linux/01-Where's-my-Storage.md)
   - [02-Storage-Basics](docs/08-Storage-in-Linux/02-Storage-Basics.md)
@@ -74,12 +81,6 @@ These are notes from the [Linux Basics Course](https://bit.ly/3gGnxm0) hosted on
   - [04-DAS-NAS-and-SAN](docs/08-Storage-in-Linux/04-DAS-NAS-and-SAN.md)
   - [05-LVM](docs/08-Storage-in-Linux/05-LVM.md)
   - [06-Project-Status-Meeting](docs/08-Storage-in-Linux/06-Project-Status-Meeting.md)
-
-- [09-Service-management-with-SYSTEMD](docs/09-Service-management-with-SYSTEMD)
-
-  - [01-Working-Overtime-Story](docs/09-Service-management-with-SYSTEMD/01-Working-Overtime-Story.md)
-  - [02-Creating-a-SYSTEMD-Service](docs/09-Service-management-with-SYSTEMD/02-Creating-a-SYSTEMD-Service.md)
-  - [03-SYSTEMD-Tools](docs/09-Service-management-with-SYSTEMD/03-SYSTEMD-Tools.md)
 
 - [10-The-Client-Demonstration](docs/10-The-Client-Demonstration)
 
