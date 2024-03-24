@@ -171,13 +171,11 @@
     1. Navigate to the directory `/opt/caleston-code/mercuryProject`
     1. Next, run the command `python3 manage.py runserver 0.0.0.0:8000`
 
-    Note:- Make sure to activate the virtual environment using source `../venv/bin/activate` within the current project before executing `python3 manage.py migrate`.
+    Note:- Make sure to activate the virtual environment using `source ../venv/bin/activate` within the current project before executing `python3 manage.py migrate`.
 
     If you've followed all the above steps, you should still be in directory `/opt/caleston-code/mercuryProject`
 
-    Start the app as directed and verify it works, then `CTRL-C` to exit.
-
-    Now run the migration. Note that the venv directory is not beneath the current directory as the question suggests. It is actually in the *parent* directory, hence `../venv` below.
+    Run the migration.
 
     ```bash
     source ../venv/bin/activate
