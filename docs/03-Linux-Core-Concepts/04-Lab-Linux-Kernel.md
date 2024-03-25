@@ -9,7 +9,7 @@ $ uname -r
 
 what is the kernel version in 4.15.0-88-generic?
 ```
-Look for the first digit. In this case, it is 15
+Look for the first digit. In this case, it is 4
 ```
 
 What is the major version number of the kernel 4.15.0-88-generic
