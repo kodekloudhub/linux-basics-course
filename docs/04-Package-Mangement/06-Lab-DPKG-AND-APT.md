@@ -4,7 +4,7 @@
 
 Package managers that you use on a debian based distro
 ```
-Debain distros use dpkg.
+Debian distros use dpkg.
 ```
 
 To install a package for **`firefox`** browser which has been downloaded at /root/firefox.deb. The dependencies might fail.
