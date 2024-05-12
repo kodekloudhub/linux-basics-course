@@ -31,7 +31,7 @@ $ sudo grep -ir 172.16.238.197 /etc/ > /home/bob/ip
 
 Create a new file called **`/home/bob/file_wth_data.txt`**. This file should have one line of text that says **`a file in my home directory`**. Make use of the redirect operator.
 ```
-$ echo "a file in my home directory" > /home/bob/file_wth_data.txt
+$ echo "a file in my home directory" > /home/bob/file_with_data.txt
 ```
 
 Run the command python3 **`/home/bob/my_python_test.py`** and redirect the **`standard error`** to the file **`/home/bob/py_error.txt`**.
