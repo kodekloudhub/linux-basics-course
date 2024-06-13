@@ -30,7 +30,7 @@
 Example: **`[Wed Apr 22]bob@caleston-lp10:~$`**
 Make sure the change is made persistent.
    ```
-   PS1='[\d]\u@\h:\w\$'
+   PS1='[\d]\u@\h:\w$'
    or
-   echo 'PS1=[\d]\u@\h:\w$' >> ~/.profile
+   echo 'PS1="[\d]\u@\h:\w$"' >> ~/.profile
    ```
