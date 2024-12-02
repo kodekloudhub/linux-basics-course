@@ -14,7 +14,7 @@ Lets try to install **`firefox`** package using both APT and APT-GET
 
   ![apt-vs-apt-get](../../images/apt-vs-apt-get.PNG)
  
-Lets try another comparision by search a **`telent`** package.
+Lets try another comparision by search a **`telnet`** package.
 - You will notice with apt, all its options are located in one place. You can search with **`apt search telnet`** command.
 - On the other hand, you cannot use search command with **`apt-get`** command. Instead, you have to use another tool called **`apt-cache search telnet`**.
 - If you compare the results of the two commands, you will also see the **`apt-cache`** throws in a lot of extra information in the search result, which may not be really useful for the end user.
