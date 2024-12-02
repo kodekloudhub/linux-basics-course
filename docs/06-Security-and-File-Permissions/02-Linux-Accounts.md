@@ -95,6 +95,14 @@
 
     ```
     [~]$ grep -i ^root /etc/passwd
-    /root:x:0:0:root:/root:/usr/sbin/nologin
     ```
+    change the line
+    ```
+    root:x:0:0:root:/root:/bin/bash
+    ```
+    to
+    ```
+    root:x:0:0:root:/root:/sbin/nologin
+    ```
+    
     
