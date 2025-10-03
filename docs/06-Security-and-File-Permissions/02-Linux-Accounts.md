@@ -97,4 +97,8 @@
     [~]$ grep -i ^root /etc/passwd
     /root:x:0:0:root:/root:/usr/sbin/nologin
     ```
-    
+  - To know more about sudo, sudoers, sudoer.d in Linux and the meaning behind the cat /etc/sudoers file content, refer below resource
+    You will understand user, groups roles, permissions, access in great detail. (https://heshandharmasena.medium.com/explain-sudoers-file-configuration-in-linux-1fe00f4d6159)
+    ```
+    [~]$ root@ubuntu-host /etc ➜  cat  /etc/sudoers
+    ```
